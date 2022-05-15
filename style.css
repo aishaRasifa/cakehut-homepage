@@ -1,0 +1,521 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'Pavanam', sans-serif ;
+}
+.header{
+    
+    width: 780px;
+    margin-left: 60px;
+    margin-top: 20px;
+    height: 62px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+
+    
+    
+}
+.logo{
+    width:20%;
+    background-color:white;
+}
+.search{
+    width:50%;
+   background-color:white;
+    
+}
+.icons{
+    width:30%;
+    background-color:white;
+}
+.search input[type=text]{
+    padding: 9px;
+    margin-top: 18px;
+    font-size: 12px;
+    border: none;
+    height: 6px;
+    background-color:   rgba(238, 238, 238, 1);
+}
+.logo img{
+    margin-top: 8px;
+}
+.search button[type=submit]{
+    position: absolute;
+    height: 24px;
+    width: 28px;
+    padding: 4px 7px;
+    margin-top: 18px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+
+}
+.white-color{
+    color: white;
+}
+.icons{
+    display: flex;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    background-color:white;
+    padding-top: 20px;
+    justify-content: space-evenly;
+}
+.itemone{
+    display: inline;
+    
+}
+.itemtwo{
+    display: inline;;
+}
+.a{
+    font-size: 8px;
+    display: block;
+}
+.b{
+    font-size: 8px;
+    display: block;
+}
+.heart{
+    padding-left: 2px;
+}
+.wish i{
+    padding-left: 9px;
+}
+.account i{
+    padding-left: 15px;
+}
+.two{
+    width: 50%;
+    background-color:  rgba(238, 238, 238, 1);;
+    display: flex;
+    height: 33px;
+    margin-top: 17px;
+
+   
+}
+.two p{
+    color: rgba(245, 114, 49, 1);
+    font-size: 10px;
+    padding-top: 9px;
+    padding-left: 6px;
+}
+.two img{
+    padding-left: 3px;
+    margin-top: 8px;
+}
+.nav{
+    /* clear:both; */
+    margin-bottom: 0;
+    background-color: rgba(245, 114, 49, 1);
+    height: 30px;
+    padding-left: 25px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+nav li{
+    display: inline-block;
+    margin:0 ;
+    padding: 6px;
+    color:white;                                          
+    font-weight:50px;
+    font-size: 11px;
+}
+.bg-image{
+    width:100%;
+    height: 260px;
+}
+.bg-image img{
+    height: 260px;
+    width:100%;
+}
+.rowone{
+    width:100%;
+    height: 200px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+}
+.rowtwo{
+    width:100%;
+    height: 201px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+}
+.rowthree{
+    width:100%;
+    height: 201px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    
+
+} 
+.image img{
+    margin-right: 25px;
+}
+.sectionone{
+    width:100%;
+    height: 210px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center; 
+    font-family: 'savoyroman';
+    font-size: 13px;
+    margin-top: 30px;
+   
+
+
+}
+.sone{
+    width:20%;
+    height: 210px;
+    background-color:white;
+}
+
+.stwo{
+    width:20%;
+    height: 210px;
+    margin:0;
+    background-color:white;
+}
+ .sthree{
+    width:20%;
+    height: 210px;
+    background-color:white;
+} 
+.sfour{
+    width:20%;
+    height: 210px;
+    background-color:white;
+}
+.sfive{
+    width:20%;
+    height: 210px;
+    background-color:white;
+} 
+
+  .sone .blank{
+      width: 100%;
+      height: 150px;
+      background-color: white;
+  } 
+  .sone p{
+      padding-left: 42px;
+  } 
+  .stwo img{
+      padding-left: 30px;
+  }
+  .stwo p{
+    padding-left: 30px;
+  }
+  .sthree .blank{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+} 
+ .sthree p{
+    padding-left: 42px;
+} 
+.sfour .blank{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+} 
+ .sfour p{
+    padding-left: 42px;
+} 
+.sfive img{
+    padding-left: 18px;
+}
+.sfive p{
+  padding-left: 18px;
+}
+.sectiontwo{
+width:100%;
+height: 200px;
+background-color:#6b585836;
+  margin-top: 30px;
+  padding-top: 1px;
+  padding-bottom: 21px;
+  display: flex;
+}
+
+.twoa{
+    width: 65%;
+    height: 150px;
+    /* background-color:red; */
+    margin-top: 14px;
+    margin-left: 52px;
+}
+.titletwo{
+    font-weight: 600;
+    font-size: 8px;
+    text-transform: uppercase;
+    white-space: normal;
+    padding-bottom: 5px;
+    text-align: center;
+    /* overflow: visible;
+    text-overflow: initial; */
+    padding-top: 8px
+     
+}
+.border{
+    width:5%;
+    height: 1px;
+    background-color:rgba(245, 114, 49, 1);
+    margin-left: 264px;
+
+}
+.twoa p{
+    color: rgb(102, 102, 102);
+    font-family: "Open Sans";
+    font-size: 8px;
+    margin-top: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    
+
+}
+.twob{
+width: 12%;
+height: 150px;
+margin-top: 14px;
+
+}
+.contact{
+    font-weight: 600;
+    font-size: 7px;
+    text-transform: uppercase;
+    white-space: normal;
+    padding-bottom: 5px;
+    text-align: start;
+    padding-top: 8px
+}
+.border2{
+    width:40%;
+    height: 0.7px;
+    background-color:rgba(245, 114, 49, 1);
+    margin-top: 4px;
+}
+.c3{
+    width: 100%;
+    height:69px;
+
+}
+.sectionthree{
+    width:100%;
+    height: 300px;
+    background-color:  rgba(0, 0, 0, 1);
+padding-top: 50px;
+
+}
+.inner{
+    width:80%;
+    height: 230px;
+    margin-left: 40px;
+    display: flex;
+
+}
+.blackone{
+    width: 25%;
+    height: 230px;
+    
+}
+.blacktwo{
+    width: 25%;
+    height: 230px;
+
+}
+.blackthree{
+    width: 25%;
+    height: 230px;
+}
+.blackfour{
+    width: 25%;
+    height: 230px;
+}
+.titlethree{
+    font-weight: 600;
+    font-size: 10px;
+    text-transform: uppercase;
+    white-space: normal;
+    padding-bottom: 5px;
+    text-align: center;
+    color:#85857ea3;
+    /* overflow: visible;
+    text-overflow: initial; */
+    padding-top: 8px
+}
+.border3{
+    width:20%;
+    height: 0.7px;
+    background-color:rgba(245, 114, 49, 1);
+    margin-top: 2px;
+    margin-left: 60px;
+}
+.blackone li{
+    list-style-type: none;
+    font-size: 9px;
+    padding-top: 5px;
+    color:#80809ab5;
+
+}
+.titlefour{
+    font-weight: 600;
+    font-size: 10px;
+    text-transform: uppercase;
+    white-space: normal;
+    padding-bottom: 5px;
+    text-align: center;
+    color:#85857ea3;
+    /* overflow: visible;
+    text-overflow: initial; */
+    padding-top: 8px
+}
+.border4{
+    width:20%;
+    height: 0.7px;
+    background-color:rgba(245, 114, 49, 1);
+    margin-top: 2px;
+    margin-left: 60px;
+}
+.blacktwo li{
+    list-style-type: none;
+    font-size: 9px;
+    padding-top: 5px;
+    color:#80809ab5;
+
+}
+.titlefive{
+    font-weight: 600;
+    font-size: 10px;
+    text-transform: uppercase;
+    white-space: normal;
+    padding-bottom: 5px;
+    text-align: center;
+    color:#85857ea3;
+    /* overflow: visible;
+    text-overflow: initial; */
+    padding-top: 8px
+}
+.border5{
+    width:20%;
+    height: 0.7px;
+    background-color:rgba(245, 114, 49, 1);
+    margin-top: 2px;
+    margin-left: 60px;
+}
+.blackthree li{
+    list-style-type: none;
+    font-size: 9px;
+    padding-top: 5px;
+    color:#80809ab5;
+
+}
+.titlesix{
+    font-weight: 600;
+    font-size: 10px;
+    text-transform: uppercase;
+    white-space: normal;
+    padding-bottom: 5px;
+    text-align: center;
+    color:#85857ea3;
+    /* overflow: visible;
+    text-overflow: initial; */
+    padding-top: 8px
+}
+.border6{
+    width:20%;
+    height: 0.7px;
+    background-color:rgba(245, 114, 49, 1);
+    margin-top: 2px;
+    margin-left: 60px;
+}
+.blackfour li{
+    list-style-type: none;
+    font-size: 9px;
+    padding-top: 5px;
+    color:#80809ab5;
+
+}
+footer{
+    width:100%;
+    height: 150px;
+    background-color: white;
+    padding-top: 12px;
+
+}
+.container{
+    width: 95%;
+    height: 110px;
+    margin-left: 40px;
+    
+}
+.parent{
+    width: 100%;
+    height: 90px;
+
+    display: flex;
+}
+.top{
+    width: 100%;
+    height: 20px;
+    
+}
+.mid{
+    width: 80%;
+    height: 90px;
+}
+.top p{
+    font-size: 6px;
+
+
+
+}
+.mid p{
+    font-size: 6px;
+    text-align: center;
+    padding-top: 5px;
+    line-height: 10px;
+}
+ .box{
+    width: 20%;
+    height: 90px;
+
+    
+} 
+.box1{
+    display: flex;
+} 
+ .image1{
+    width: 50%;
+    height: 30px;
+    
+} 
+
+ .image2{
+    width:45%;
+    height: 20px;
+}
+ .image3{
+    width: 100%;
+    height: 25px;
+} 
+ .image4{
+    width: 50%;
+    height: 25px;
+    margin-left: 38px;
+} 
+
