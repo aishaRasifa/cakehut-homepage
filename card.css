@@ -1,0 +1,36 @@
+.cards,.cardtwo,.cardthree,.cardfour,.cardfive,.cardsix,.cardseven,.cardeight,.cardnine,.cardten,.cardeleven,.cardtwelve{
+    box-shadow: none;
+    width: 15%;
+    height: 140px;
+    padding: 30px;
+    display: inline-block;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+
+.title{
+    font-family: 'Pavanam', sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+.price{
+    text-align: center;
+    font-size: 10px;
+    padding-top: 6px;
+}
+
+.bt{
+    
+    background-color: rgba(245, 114, 49, 1);
+    color: #fff;
+    border:none;
+    font-family: 'Pavanam', sans-serif;
+    width: 100px;
+    cursor: pointer;
+    margin-left: 14px;
+    
+}
+
+
